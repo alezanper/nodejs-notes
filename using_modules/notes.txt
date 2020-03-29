@@ -1,0 +1,2 @@
+For running daemon:
+    rpm run dev -> check package.json / script
