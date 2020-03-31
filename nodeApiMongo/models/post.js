@@ -1,5 +1,7 @@
+// Importing mongoose
 const mongoose = require("mongoose");
 
+// Creating a simple schema 
 const postSchema = new mongoose.Schema({
     title: {
         type: String,
@@ -15,4 +17,5 @@ const postSchema = new mongoose.Schema({
     }
 });
 
+// Exporting schema
 module.exports = mongoose.model("Post", postSchema);

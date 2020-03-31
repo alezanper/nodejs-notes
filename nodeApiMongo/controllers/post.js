@@ -1,5 +1,7 @@
+// Call json schema
 const Post = require("../models/post");
 
+// Implementing get method
 exports.getPosts = (req, res) =>{
     const posts = Post.find().then((posts)=>{
         res.status(200).json({
@@ -9,6 +11,7 @@ exports.getPosts = (req, res) =>{
     .catch(err => console.log(err))
 };
 
+// Implementing post method
 exports.createPost = (req, res) =>{
     const post = new Post(req.body);
     //console.log("CREATING POST: ", req.body);
