@@ -1,3 +1,5 @@
+// How to read a txt file 
+
 const fs = require("fs");
 const fileName = "target.txt";
 

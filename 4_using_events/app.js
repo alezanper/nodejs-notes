@@ -1,3 +1,6 @@
+// Handling events 
+// This samll program is going to check a directory for changes on a file
+
 const fs = require("fs");
 
 const fileName = "target.txt";

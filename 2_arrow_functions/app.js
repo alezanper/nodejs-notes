@@ -1,12 +1,12 @@
 // Old way
 
-//function sum(a, b){
-//    return a + b; 
-//}
+function sum1(a, b){
+    return a + b; 
+}
 
-//const sum = (a, b) => {
-//    return a + b;
-//}
+const sum2 = (a, b) => {
+    return a + b;
+}
 
 // New Way
 const sum = (a, b) => a + b;
